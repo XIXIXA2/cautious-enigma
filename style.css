@@ -1,0 +1,779 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 100%;
+    height: 25vh;
+    background-color: beige;
+}
+.header_top {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+.logoBox {
+    width: 10%;
+    height: 13vh;
+    background-image: url(./img/Logo.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 5%;
+}
+.nameBox {
+    width: 23%;
+    height: 10vh;
+    display: flex;
+    justify-content: end;
+    margin-right: 30%;
+    padding-left: 5%;
+}
+.nameBox p {
+    font-size: 1.3em;
+}
+.phone {
+    width: 13%;
+    height: 5vh;
+    margin-right: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.phone a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+}
+.bin {
+    width: 5%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header_bottom {
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 5%;
+    border-top:1px solid black ;
+    border-bottom:1px solid black;
+}
+.header_bottom a {
+    color: rgb(0, 0, 0);
+    font-size: 1.3em;
+    text-decoration: none;
+}
+.main_list {
+    width: 100%;
+    height: 50vh;
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nj{
+    width: 100%;
+    height: 50vh;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrap {
+    width: 90%;
+    height: 50vh;
+    margin-left: 7%;
+    background-image: url(./img/imgb1.png);
+    background-size: 90%;
+    background-position: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrap .imgTXT{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgTXT {
+    width: 30%;
+    height: 35vh;
+    margin-left: 45%;
+    color: black;
+    text-align: center;
+    font-size: 3vh;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 2em;
+}
+.bottomlines {
+    width: 100%;
+    height: 5vh;
+    border-bottom: 1px solid black;
+}
+.catalogue {
+    width: 100%;
+    height: 90vh;
+}
+.headline {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headline p {
+    color: black;
+    text-decoration: none;
+    font-size: 2em;
+    margin-top: 5%;
+}
+.mainBin {
+    width: 100%;
+    height: 70vh;
+}
+.topIMG {
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 5%;
+}
+.bottomIMG {
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 5%;
+}
+.IMG1 {
+    width: 20%;
+    height: 25vh;
+    background-image: url(./img/imgCATALOG1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    border-radius: 15%;
+}
+.IMG2 {
+    width: 20%;
+    height: 25vh;
+    background-image: url(./img/imgCATALOG2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    border-radius: 15%;
+}
+.IMG3 {
+    width: 20%;
+    height: 25vh;
+    background-image: url(./img/imgCATALOG3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    border-radius: 15%;
+}
+.IMG4 {
+    width: 20%;
+    height: 25vh;
+    background-image: url(./img/imgCATALOG4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    border-radius: 15%;
+}
+.IMG5 {
+    width: 20%;
+    height: 25vh;
+    background-image: url(./img/imgCATALOG5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    border-radius: 15%;
+}
+.headerTXT {
+    width: 100%;
+    height: 5vh;
+    margin-bottom: 3%;
+    margin-top: 5%;
+}
+.headerTXT p {
+    font-size: 2em;
+    text-align: center;
+}
+.aboutUS {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrap2 {
+    width: 70%;
+    height: 20vh;
+    background-image: url(./img/aboutUSimg.png);
+    background-repeat: no-repeat;
+    background-size: center;
+}
+.txtINwrap2 {
+    width: 65%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.txtINwrap2 p {
+    font-size: 1.2em;
+    margin-left: 5%;
+    color: white;
+}
+.headerTXT2 {
+    width: 100%;
+    height: 5vh;
+    margin-bottom: 3%;
+    margin-top: 5%;
+}
+.headerTXT2 p {
+    font-size: 2em;
+    text-align: center;
+}
+.SalesHits {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrap3 {
+    width: 60%;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 5%;
+}
+.frameITEM1 {
+    width: 20%;
+    height: 40vh;
+    border-radius: 5%;
+    background-color: #b4ea3c;
+}
+.frameITEM2 {
+    width: 20%;
+    height: 40vh;
+    border-radius: 5%;
+    background-color: #b4ea3c;
+}
+.frameITEM3 {
+    width: 20%;
+    height: 40vh;
+    border-radius: 5%;
+    background-color: #b4ea3c;
+}
+.frameIMG1 {
+    width: 100%;
+    height: 25vh;
+    
+    display: flex;
+    justify-content: center;
+}
+.frameIMG2 {
+    width: 100%;
+    height: 25vh;
+    
+    display: flex;
+    justify-content: center;
+}
+.frameIMG3 {
+    width: 100%;
+    height: 25vh;
+
+    display: flex;
+    justify-content: center;
+}
+.imgITEM1 {
+    width: 50%;
+    height:25vh;
+    background-image: url(./img/item1.png);
+    background-position: 50%;
+}
+.imgITEM2 {
+    width: 50%;
+    height:25vh;
+    background-image: url(./img/item2.png);
+    background-position: 50%;
+}
+.imgITEM3 {
+    width: 50%;
+    height:25vh;
+    background-image: url(./img/item3.png);
+    background-position: 50%;
+}
+.txtITEM1 {
+    width: 100%;
+    height: 7vh;
+}
+.txtITEM1 p {
+    font-size: 1.3em;
+    text-align: center;
+    margin-top: 5%;
+}
+.frameBUT {
+    width: 100%;
+    height: 5vh;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#btnITEM {
+    width: 50%;
+    height: 3vh;
+    background-color: #b4ea3c;
+    border-radius: 10%;
+}
+.headerTXT3 {
+    width: 100%;
+    height: 5vh;
+    margin-bottom: 3%;
+    margin-top: 5%;
+}
+.headerTXT3 p{
+    font-size: 2em;
+    text-align: center;
+}
+.reviews {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrap4 {
+    width: 60%;
+    height: 65vh;
+    display: flex;
+    grid-gap: 5%;
+}
+.sqare1 {
+    width: 30%;
+    height: 60vh;
+    border-radius: 5%;
+    background-color: #b4ea3c;
+}
+.sqare1IMG {
+    width: 100%;
+    height: 10vh;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+.faceIMG1 {
+    width: 30%;
+    height: 10vh;
+    border-radius: 50%;
+    background-image: url(./img/face1.png);
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+.faceIMG2 {
+    width: 30%;
+    height: 10vh;
+    border-radius: 50%;
+    background-image: url(./img/face2.png);
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+.faceIMG3 {
+    width: 30%;
+    height: 10vh;
+    border-radius: 50%;
+    background-image: url(./img/face3.png);
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+.txtIMG {
+    width: 100%;
+    height: 25vh;
+    margin-top: 15%;
+    border-top: 2px solid rgba(0, 0, 0, 0.350);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.350);
+}
+.txtIMG p {
+    font-size: 1.2em;
+    margin-top: 5%;
+    text-align: center;
+}
+.frameName {
+    width: 100%;
+    height: 7vh;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.100);
+}
+.frameName p {
+    margin-top: 5%;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.sqare2 {
+    width: 30%;
+    height: 60vh;
+    border-radius: 5%;
+    background-color: #b4ea3c;
+}
+.sqare3 {
+    width: 30%;
+    height: 60vh;
+    border-radius: 5%;
+    background-color: #b4ea3c;
+}
+.headerTXT4 {
+    width: 100%;
+    height: 5vh;
+    margin-bottom: 3%;
+}
+.headerTXT4 p{
+    font-size: 2em;
+    text-align: center;
+}
+.contacts {
+    width: 100%;
+    height: 45vh;
+    background-color: #b4ea3c;
+    display: flex;
+}
+.mapWrap {
+    width: 50%;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mapCorect {
+    width: 80%;
+    height: 35vh;
+}
+.firstTXT {
+    width: 100%;
+    height: 10vh;
+}
+.firstTXT p {
+    font-size: 2em;
+    padding-top: 4%;
+}
+.secondTXT {
+    width: 100%;
+    height: 20vh;
+}
+.secondTXT p  {
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+.textWrap {
+    width: 50%;
+    height: 45vh;
+}
+footer {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+}
+.ftrWrap {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+}
+.logoAndTtxtWrap {
+    width: 30%;
+    height: 30vh;
+}
+.logoFTR {
+    width: 25%;
+    height: 15vh;
+    margin-left: 30%;
+    background-image: url(./img/Logo.png);
+    background-size: 99%;
+    
+}
+.txtFTR {
+    width: 55%;
+    height: 5vh;
+    margin-left: 40%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.txtFTR p {
+    font-size: 1.2em;
+}
+.contactFTRwrap {
+    width: 40%;
+    height: 30vh;
+    display: flex;
+    justify-content: end;
+}
+.contactFTR {
+    width: 50%;
+    height: 30vh;
+}
+.contactWrapFTR1 {
+    width: 20%;
+    height: 5vh;
+    margin-left: 20%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    border-bottom: 2px solid #b4ea3c;
+}
+.contactWrapFTR1 p {
+    font-size: 1.2em;
+}
+.contactWrapFTR2 {
+    width: 70%;
+    height: 5vh;
+    margin-left: 30%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.contactWrapFTR2 p {
+    font-size: 1.2em;
+}
+.contactWrapFTR3 {
+    width: 60%;
+    height: 3vh;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.contactWrapFTR3 p {
+    font-size: 1.2em;
+}
+.contactWrapFTR4 {
+    width: 60%;
+    height: 5vh;
+    margin-top: 5%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.contactWrapFTR4 p {
+    font-size: 1.2em;
+}
+.menuFRTwrap {
+    width: 30%;
+    height: 30vh;
+    display: flex;
+    justify-content: end;
+}
+.menuFTR {
+    width: 50%;
+    height: 30vh;
+}
+.mainTXTmenu {
+    width: 18%;
+    height: 5vh;
+    margin-top: 10%;
+    display: flex;
+    align-items: end;
+    border-bottom: 2px solid #b4ea3c;
+}
+.mainTXTmenu p {
+    font-size: 1.2em;
+}
+.secondTXTmenu {
+    width: 25%;
+    height: 20vh;
+    margin-top: 5%;
+}
+.secondTXTmenu a {
+    font-size: 1.2em;
+    line-height: 2em;
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (max-width: 768px) {
+    .nameBox  p{
+        font-size: 0.8em;
+    }
+    .nameBox {
+        margin-right: 25%;
+    }
+    .phone {
+        margin-right: 10%;
+    }
+    .phone a {
+        font-size: 0.8em;
+    }
+    .header_bottom {
+        background-color: beige;
+    }
+    .header_bottom  a{
+        font-size: 0.9em;
+    }
+    .wrap {
+        width: 90%;
+        background-size: 100%;
+        margin-left:0%;
+        margin-top: 50%;
+    }
+    h1 {
+        font-size: 0.4em;
+        line-height: 1.3em;
+        transform: translate(22%,-330%);
+    }
+    .main_list {
+        height: 30vh;
+    }
+    .topIMG {
+        display: flex;
+        flex-direction: column;
+        height: 83vh;
+        margin-bottom: 10%;
+        grid-gap: 5%;
+    }
+    .bottomIMG {
+        display: flex;
+        flex-direction: column;
+        height: 53vh;
+        margin-bottom: 5%;
+    }
+    .IMG1,.IMG2,.IMG3,.IMG4,.IMG5 {
+        width: 70%;
+        border-radius: 1%;
+    }
+    .IMG3 {
+        margin-bottom: -15%;
+    }
+    .headerTXT {
+        margin-top: 70vh;
+        margin-bottom: 5vh;
+    }
+    .wrap2 {
+        width: 90%;
+        height: 50vh;
+        background-image: none;
+        background-color: #b4ea3c;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5%;
+    }
+    .txtINwrap2 p {
+        font-size: 0.9em;
+        color: black;
+    }
+    .aboutUS {
+        height: 70vh;
+    }
+    .SalesHits {
+        height: 160vh;
+    }
+    .wrap3 {
+        display: flex;
+        flex-direction: column;
+    }
+    .frameITEM1,.frameITEM2,.frameITEM3 {
+        width: 100%;
+        height: 45vh;
+        padding-bottom: 5vh;
+    }
+    .frameBUT {
+        margin-top: 20%;
+    }
+    .reviews {
+        height: 230vh;
+        display: flex;
+    }
+    .wrap4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 230vh;
+        width: 100%;
+        border-bottom: 1px solid black;
+    }
+    .sqare1,.sqare2,.sqare3 {
+        width: 90%;
+    }
+    .sqare1 p {
+        font-size: 1.1em;
+    }
+    .frameName p {
+        font-size: 1.3em;
+    }
+    .logoFTR {
+        width: 0%;
+        height: 0%;
+    }
+    .txtFTR {
+        width: 0%;
+        height: 0%;
+        font-size: 0em;
+        margin-left: 0%;
+    }
+    .logoAndTtxtWrap {
+        width: 0%;
+        height: 0%;
+    }
+    .contactWrapFTR1 {
+        width: 0%;
+        height: 0%;
+        margin-top: 0%;
+    }
+    .contactWrapFTR2 {
+        font-size: 1.2em;
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 0%;
+        margin-bottom: 10%;
+    }
+    .contactWrapFTR3 {
+        font-size: 1.2em;
+        width: 100%;
+        margin: 0%;
+        margin-bottom: 5%;
+    }
+    .contactWrapFTR4 {  
+        font-size: 1.2em;
+        width: 100%;
+        margin: 0%;
+    }
+    .contactWrapFTR1 p{
+        font-size: 0em;
+        
+    }
+    .contactFTRwrap {
+        width: 100%;
+    }
+    .contactFTR {
+        width: 100%;
+    }
+    .headerTXT4 p{
+        text-decoration: underline #b4ea3c;
+    }
+    .headerTXT4 {
+        padding-top: 5%;
+    }
+}
+
+
